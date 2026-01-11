@@ -43,3 +43,7 @@ desktop.ini
 
 # Trash
 **/.trash/
+
+# Resource 폴더 (모든 리소스 파일)
+Resource/
+Private/
