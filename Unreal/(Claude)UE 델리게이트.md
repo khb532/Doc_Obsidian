@@ -821,6 +821,56 @@ FMyStaticMultiDelegate OnEvent;
 
 ---
 
+## 📎 별첨: `using`을 활용한 C++ 네이티브 델리게이트 선언
+
+최신 언리얼 엔진에서는 기존의 `DECLARE_DELEGATE_...` 매크로 대신, `using` 키워드와 `TDelegate` / `TMulticastDelegate` 템플릿을 사용해 직관적으로 델리게이트를 선언할 수 있습니다.
+
+> **⚠️ 중요 제약:** `using` 방식은 **C++ 내부 전용 델리게이트에만 적용 가능**합니다.
+> 블루프린트와 연동해야 하는 **다이내믹 델리게이트(Dynamic Delegate)에는 사용할 수 없습니다.**
+
+### 선언 방법
+
+#### 싱글캐스트
+
+```cpp
+// 기존 매크로 방식
+DECLARE_DELEGATE_OneParam(FOnScoreChanged, int32);
+
+// using 방식
+using FOnScoreChanged = TDelegate<void(int32)>;
+```
+
+#### 멀티캐스트
+
+```cpp
+// 기존 매크로 방식
+DECLARE_MULTICAST_DELEGATE_TwoParams(FOnPlayerDied, APlayer*, const FString&);
+
+// using 방식
+using FOnPlayerDied = TMulticastDelegate<void(APlayer*, const FString&)>;
+```
+
+#### 반환값이 있는 델리게이트
+
+```cpp
+// 기존 매크로 방식
+DECLARE_DELEGATE_RetVal_OneParam(bool, FOnCheckCondition, float);
+
+// using 방식
+using FOnCheckCondition = TDelegate<bool(float)>;
+```
+
+### 언제 매크로를 쓰고, 언제 `using`을 써야 할까?
+
+| 구분 | 선언 방식 | 블루프린트 (UHT) | 설명 |
+|:---|:---|:---|:---|
+| **C++ 전용 델리게이트** | **`using` (권장)** 또는 `DECLARE_DELEGATE` | 불가 | 블루프린트 노출 없이 C++ 내부에서만 이벤트를 처리할 때. 코드가 훨씬 깔끔해집니다. |
+| **다이내믹 델리게이트** | **`DECLARE_DYNAMIC_...`** | **가능** (`BlueprintAssignable` 등) | 블루프린트에서 바인딩/호출이 필요할 때 반드시 사용. UHT가 리플렉션 데이터를 수집하려면 이 매크로가 필요합니다. |
+
+> **💡 요약:** 블루프린트 연동이 필요하면 `DECLARE_DYNAMIC_DELEGATE` 매크로를 사용하고, 순수 C++ 시스템 간 콜백이나 이벤트 처리라면 `using` 방식이 가독성 면에서 유리합니다.
+
+---
+
 ## 🚀 다음 단계
 
 델리게이트를 마스터했다면:
@@ -857,3 +907,6 @@ FMyStaticMultiDelegate OnEvent;
 
 *버전: 1.0 (2025)*
 *최종 검증: Unreal Engine 5.6 공식 문서 기준*
+
+---
+
