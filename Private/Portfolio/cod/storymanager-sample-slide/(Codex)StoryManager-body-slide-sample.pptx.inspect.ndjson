@@ -1,0 +1,56 @@
+{"kind":"deck","id":"pr/5hxopn","name":"Deck"}
+{"kind":"layout","layoutId":"23674a63-bb80-4376-bb4c-0c9aad811f4b","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"7104a387-67cc-4015-be65-fd24776a8f42","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/r4zm0h","slide":1,"title":"STORY TOOLING","textShapes":29}
+{"kind":"shape","id":"sh/vixczed8","slide":1,"name":"lower-band","bbox":[0,560,1280,160]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":1,"name":"chapter-label","text":"STORY TOOLING","textPreview":"STORY TOOLING","textChars":13,"textLines":1,"bbox":[70,54,200,20]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":1,"name":"main-title","text":"레벨 스토리 작업을 공통화한 StoryManager 구조","textPreview":"레벨 스토리 작업을 공통화한 StoryManager 구조","textChars":31,"textLines":1,"bbox":[70,88,790,52]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":1,"name":"subtitle","text":"전투 전개와 연출 연결을 트리거·페이즈·방어 지점 세팅 중심으로 정리해, 스테이지별 반복 작업과 수정 비용을 줄이도록 구성한 작업용 흐름","textPreview":"전투 전개와 연출 연결을 트리거·페이즈·방어 지점 세팅 중심으로 정리해, 스테이지별 반복 작업과 수정 비용을 줄이도록 구성한 작업용 흐름","textChars":76,"textLines":1,"bbox":[72,145,950,42]}
+{"kind":"shape","id":"sh/val87ed8","slide":1,"name":"main-panel","bbox":[70,208,760,332]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":1,"name":"main-panel-title","text":"공통 작업 흐름","textPreview":"공통 작업 흐름","textChars":8,"textLines":1,"bbox":[94,228,220,24]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":1,"name":"main-panel-subtitle","text":"레벨 세팅 -> StoryManager 중앙 제어 -> 아군 재배치/전투 재개","textPreview":"레벨 세팅 -> StoryManager 중앙 제어 -> 아군 재배치/전투 재개","textChars":43,"textLines":1,"bbox":[94,253,560,22]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":1,"name":"flow-box-1","bbox":[94,294,150,176]}
+{"kind":"shape","id":"sh/v6psfil0","slide":1,"name":"flow-badge-1","bbox":[108,308,28,28]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":1,"name":"flow-badge-text-1","text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[108,312,28,16]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":1,"name":"flow-title-1","text":"1. Trigger 배치","textPreview":"1. Trigger 배치","textChars":13,"textLines":1,"bbox":[108,348,122,26]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":1,"name":"flow-body-1","text":"레벨마다\nPhaseTrigger 배치\nToPhase 값 세팅","textPreview":"레벨마다 | PhaseTrigger 배치 | ToPhase 값 세팅","textChars":33,"textLines":3,"bbox":[108,386,122,70]}
+{"kind":"shape","id":"sh/4byhgn29","slide":1,"name":"flow-box-2","bbox":[268,294,150,176]}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":1,"name":"flow-badge-2","bbox":[282,308,28,28]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":1,"name":"flow-badge-text-2","text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[282,312,28,16]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":1,"name":"flow-title-2","text":"2. StoryManager","textPreview":"2. StoryManager","textChars":15,"textLines":1,"bbox":[282,348,122,26]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":1,"name":"flow-body-2","text":"CurPhase 전환\n등록된 AI에\nEPhase 명령 전달","textPreview":"CurPhase 전환 | 등록된 AI에 | EPhase 명령 전달","textChars":32,"textLines":3,"bbox":[282,386,122,70]}
+{"kind":"shape","id":"sh/bat47y1k","slide":1,"name":"flow-box-3","bbox":[442,294,150,176]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":1,"name":"flow-badge-3","bbox":[456,308,28,28]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":1,"name":"flow-badge-text-3","text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[456,312,28,16]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":1,"name":"flow-title-3","text":"3. AI 재배치","textPreview":"3. AI 재배치","textChars":9,"textLines":1,"bbox":[456,348,122,26]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":1,"name":"flow-body-3","text":"캐릭터별\nDefense Point 선택\n이동 명령 수행","textPreview":"캐릭터별 | Defense Point 선택 | 이동 명령 수행","textChars":30,"textLines":3,"bbox":[456,386,122,70]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":1,"name":"flow-box-4","bbox":[616,294,150,176]}
+{"kind":"shape","id":"sh/ulwval87","slide":1,"name":"flow-badge-4","bbox":[630,308,28,28]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":1,"name":"flow-badge-text-4","text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[630,312,28,16]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":1,"name":"flow-title-4","text":"4. 플레이 결과","textPreview":"4. 플레이 결과","textChars":9,"textLines":1,"bbox":[630,348,122,26]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":1,"name":"flow-body-4","text":"아군 재배치\n전투 루프 재개\n엔딩 연출 연결","textPreview":"아군 재배치 | 전투 루프 재개 | 엔딩 연출 연결","textChars":24,"textLines":3,"bbox":[630,386,122,70]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":1,"name":"flow-arrow-1","bbox":[250,364,38,30]}
+{"kind":"shape","id":"sh/j2t83itg","slide":1,"name":"flow-arrow-2","bbox":[424,364,38,30]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":1,"name":"flow-arrow-3","bbox":[598,364,38,30]}
+{"kind":"shape","id":"sh/0z61032l","slide":1,"name":"aircraft-pill","bbox":[308,478,286,44]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":1,"name":"aircraft-pill-text","text":"Ending 페이즈에서는 Aircraft 연출 호출","textPreview":"Ending 페이즈에서는 Aircraft 연출 호출","textChars":28,"textLines":1,"bbox":[328,490,246,18]}
+{"kind":"shape","id":"sh/itgfmlkj","slide":1,"name":"reason-card","bbox":[860,208,350,154]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":1,"name":"reason-title","text":"왜 이렇게 정리했는가","textPreview":"왜 이렇게 정리했는가","textChars":11,"textLines":1,"bbox":[886,228,220,24]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":1,"name":"reason-bullets","text":"레벨마다 전투 전개와 연출 연결을 개별 하드코딩하는 반복 작업을 줄이기 위해\n수정 포인트를 Trigger, ToPhase, Defense Point 세팅 중심으로 모으기 위해","textPreview":"레벨마다 전투 전개와 연출 연결을 개별 하드코딩하는 반복 작업을 줄이기 위해 | 수정 포인트를 Trigger, ToPhase, Defense Point 세팅 중심으로 모으기 위해","textChars":97,"textLines":2,"bbox":[886,264,292,78]}
+{"kind":"shape","id":"sh/72x4nap4","slide":1,"name":"use-card","bbox":[860,386,350,154]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":1,"name":"use-title","text":"협업에서 쓰는 방식","textPreview":"협업에서 쓰는 방식","textChars":10,"textLines":1,"bbox":[886,406,220,24]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":1,"name":"use-bullets","text":"레벨 작업자는 Trigger 위치와 방어 지점 배치로 스테이지 흐름을 조정\n프로그래머는 공통 제어 로직만 유지보수하며 레벨별 분기를 줄이는 방향으로 설계","textPreview":"레벨 작업자는 Trigger 위치와 방어 지점 배치로 스테이지 흐름을 조정 | 프로그래머는 공통 제어 로직만 유지보수하며 레벨별 분기를 줄이는 방향으로 설계","textChars":85,"textLines":2,"bbox":[886,442,292,78]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":1,"name":"role-card-1","bbox":[70,582,354,100]}
+{"kind":"shape","id":"sh/kre1w7mp","slide":1,"name":"role-accent-1","bbox":[70,582,6,100]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":1,"name":"role-title-1","text":"기획자 관점","textPreview":"기획자 관점","textChars":6,"textLines":1,"bbox":[94,602,190,20]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":1,"name":"role-body-1","text":"페이즈 전환 타이밍과\n전투 전개 순서를 정의","textPreview":"페이즈 전환 타이밍과 | 전투 전개 순서를 정의","textChars":24,"textLines":2,"bbox":[94,632,296,34]}
+{"kind":"shape","id":"sh/val87ed8","slide":1,"name":"role-card-2","bbox":[463,582,354,100]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":1,"name":"role-accent-2","bbox":[463,582,6,100]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":1,"name":"role-title-2","text":"레벨 디자이너 관점","textPreview":"레벨 디자이너 관점","textChars":10,"textLines":1,"bbox":[487,602,190,20]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":1,"name":"role-body-2","text":"Trigger 위치와\nDefense Point를 배치","textPreview":"Trigger 위치와 | Defense Point를 배치","textChars":29,"textLines":2,"bbox":[487,632,296,34]}
+{"kind":"shape","id":"sh/vixczed8","slide":1,"name":"role-card-3","bbox":[856,582,354,100]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":1,"name":"role-accent-3","bbox":[856,582,6,100]}
+{"kind":"textbox","id":"sh/d0z61032","slide":1,"name":"role-title-3","text":"프로그래머 관점","textPreview":"프로그래머 관점","textChars":8,"textLines":1,"bbox":[880,602,190,20]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":1,"name":"role-body-3","text":"StoryManager와 AI 흐름을\n공통 구조로 유지","textPreview":"StoryManager와 AI 흐름을 | 공통 구조로 유지","textChars":30,"textLines":2,"bbox":[880,632,296,34]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":1,"name":"footer","text":"Sample slide / 1","textPreview":"Sample slide / 1","textChars":16,"textLines":1,"bbox":[1070,682,140,14]}
+{"kind":"notes","id":"nt/r4zm0h","slide":1,"text":""}

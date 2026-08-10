@@ -1,0 +1,37 @@
+{
+  "output": "D:\\DoveObs\\Private\\Portfolio\\표지2_editable_resource.pptx",
+  "outputBytes": 23529,
+  "slideCount": 2,
+  "slideSize": {
+    "width": 1600,
+    "height": 900
+  },
+  "previewDir": "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260611-cover-resource\\presentations\\cover-resource\\preview",
+  "previewPaths": [
+    "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260611-cover-resource\\presentations\\cover-resource\\preview\\slide-01.png",
+    "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260611-cover-resource\\presentations\\cover-resource\\preview\\slide-02.png"
+  ],
+  "layoutDir": "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260611-cover-resource\\presentations\\cover-resource\\layout\\final",
+  "layoutResults": [
+    {
+      "layoutPath": "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260611-cover-resource\\presentations\\cover-resource\\layout\\final\\slide-01.layout.json"
+    },
+    {
+      "layoutPath": "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260611-cover-resource\\presentations\\cover-resource\\layout\\final\\slide-02.layout.json"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260611-cover-resource\\presentations\\cover-resource\\slides\\slide-01.mjs",
+      "exportName": "slide01"
+    },
+    {
+      "index": 2,
+      "requestedSlideNumber": 2,
+      "modulePath": "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260611-cover-resource\\presentations\\cover-resource\\slides\\slide-02.mjs",
+      "exportName": "slide02"
+    }
+  ]
+}

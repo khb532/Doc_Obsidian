@@ -1,0 +1,27 @@
+{
+  "output": "D:\\DoveObs\\Private\\Portfolio\\Rene\\Rene_Listen_Server_Multiplayer_Portfolio_Slide.pptx",
+  "outputBytes": 18697,
+  "slideCount": 1,
+  "slideSize": {
+    "width": 1280,
+    "height": 720
+  },
+  "previewDir": "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260529-rene-mp\\presentations\\rene-multiplayer-slide\\preview",
+  "previewPaths": [
+    "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260529-rene-mp\\presentations\\rene-multiplayer-slide\\preview\\slide-01.png"
+  ],
+  "layoutDir": "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260529-rene-mp\\presentations\\rene-multiplayer-slide\\layout\\final",
+  "layoutResults": [
+    {
+      "layoutPath": "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260529-rene-mp\\presentations\\rene-multiplayer-slide\\layout\\final\\slide-01.layout.json"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "requestedSlideNumber": 1,
+      "modulePath": "C:\\Users\\Dove\\Documents\\Codex\\2026-05-29\\new-chat\\outputs\\manual-20260529-rene-mp\\presentations\\rene-multiplayer-slide\\slides\\slide-01.mjs",
+      "exportName": "slide01"
+    }
+  ]
+}
